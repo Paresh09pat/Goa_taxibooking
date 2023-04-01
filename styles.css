@@ -5,36 +5,43 @@
   height: 750px;
   background-image: url("./Images/javygo-mnItwT1ogBM-unsplash.png");
 }
+
 a {
   margin-left: 40px;
   text-decoration: none;
   color: white;
 }
+
 a:hover {
   cursor: pointer;
   text-decoration: underline;
   color: red;
 }
+
 .adiv {
   margin-left: 30%;
   padding-top: 50px;
   display: flex;
 }
+
 #navdiv {
   display: flex;
   background-color: #000000;
   box-sizing: border-box;
 }
+
 .pic {
   width: 200px;
   height: 90px;
   padding-left: 200px;
 }
+
 .pic1 {
   padding-top: 5px;
   width: 20px;
   height: 20px;
 }
+
 .chat {
   color: white;
   border: 3px solid red;
@@ -47,9 +54,11 @@ a:hover {
   position: relative;
   bottom: 15px;
 }
+
 .chattext {
   padding: 5px;
 }
+
 .hometext1 {
   color: white;
   text-align: center;
@@ -64,12 +73,14 @@ a:hover {
   font-size: larger;
   margin-top: 100px;
 }
+
 .hometext2 {
   color: rgb(222, 216, 243);
   text-align: center;
   font-size: 60px;
   text-shadow: 2px 2px 5px rgb(35, 245, 52);
 }
+
 .homepagetext3 {
   text-align: center;
   color: white;
@@ -83,9 +94,11 @@ a:hover {
   background-color: black;
   box-shadow: 2px 2px 2px red;
 }
+
 .homepagetext3:hover {
   cursor: pointer;
 }
+
 .chattext1 {
   color: white;
   margin-left: 5px;
@@ -100,10 +113,12 @@ a:hover {
   font-weight: bolder;
   font-size: 30px;
 }
+
 .categoryunderline {
   width: 15%;
   margin-left: 42.5%;
 }
+
 #cards {
   width: 75%;
   margin-left: 12.5%;
@@ -111,6 +126,7 @@ a:hover {
   flex-wrap: wrap;
   box-sizing: border-box;
 }
+
 .cardiv {
   box-sizing: border-box;
   padding: 10px;
@@ -124,15 +140,18 @@ a:hover {
   border-radius: 10px;
   background-image: linear-gradient(to bottom, #6F6CB4, #38365A);
 }
+
 .cardiv {
   cursor: pointer;
 }
+
 .categorypic {
   width: 320px;
   height: 170px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .view {
   border: 3px solid rgb(184, 125, 239);
   width: 25%;
@@ -144,6 +163,7 @@ a:hover {
   font-weight: bolder;
   border-radius: 5px;
 }
+
 .view:hover {
   cursor: pointer;
 }
@@ -156,6 +176,7 @@ a:hover {
   display: block;
   height: 450px;
 }
+
 .whohead {
   width: 75%;
   margin-left: 12.5%;
@@ -163,6 +184,7 @@ a:hover {
   font-weight: bolder;
   padding: 5px;
 }
+
 .whotext {
   width: 55%;
   box-sizing: border-box;
@@ -170,6 +192,7 @@ a:hover {
   padding: 10px;
   font-size: 18px;
 }
+
 .whopic {
   width: 33%;
   height: 300px;
@@ -178,6 +201,7 @@ a:hover {
   top: 1580px;
   box-sizing: border-box;
 }
+
 .whoblock {
   width: 33%;
   height: 170px;
@@ -187,15 +211,18 @@ a:hover {
   top: 1870px;
   box-sizing: border-box;
 }
+
 .whocarpic {
   width: 470px;
   height: 280px;
   box-sizing: border-box;
   padding-left: 20px;
 }
+
 .blockhead {
   display: flex;
 }
+
 .vision {
   box-sizing: border-box;
   padding: 5px;
@@ -206,6 +233,7 @@ a:hover {
   font-weight: bold;
   background-color: #6F6CB4;
 }
+
 .boxtext {
   box-sizing: border-box;
   padding: 5px;
@@ -221,27 +249,65 @@ a:hover {
   box-sizing: border-box;
   display: flex;
 }
+
 #apptext {
   color: white;
   width: 45%;
   margin-left: 12.5%;
-padding-top: 120px;
+  padding-top: 120px;
 
 }
+
 .apppic1 {
   width: 170px;
   height: 100px;
 }
+
 .apppic2 {
   width: 170px;
   height: 70px;
   margin-bottom: 17px;
 }
-.downloadimage{
+
+.downloadimage {
   width: 30%;
 }
-.mobileimage{
+
+.mobileimage {
   width: 420px;
   height: 530px;
   padding-top: 5px;
+}
+
+/* welcome to Quickzet Fleet Technology PVT. LTD */
+#welcome {
+  margin-top: 50px;
+}
+#fourblock {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin-left: 12.5%;
+  padding-left: 2.5%;
+}
+.fourblock1 {
+  width: 55%;
+  height: 250px;
+}
+.fourblock2 {
+  width: 40%;
+  height: 250px;
+}
+.fourblock3 {
+  width: 40%;
+  height: 255px;
+  box-sizing: border-box;
+}
+.fourblock4 {
+  width: 55%;
+  height: 255px;
+}
+.wagon {
+  width: 500px;
+  height: 280px;
 }
