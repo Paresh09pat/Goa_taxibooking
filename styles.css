@@ -289,14 +289,17 @@ a:hover {
   width: 75%;
   margin-left: 12.5%;
   padding-left: 2.5%;
+  box-sizing: border-box;
 }
 .fourblock1 {
   width: 55%;
   height: 250px;
+  box-sizing: border-box;
 }
 .fourblock2 {
   width: 40%;
   height: 250px;
+  box-sizing: border-box;
 }
 .fourblock3 {
   width: 40%;
@@ -306,6 +309,7 @@ a:hover {
 .fourblock4 {
   width: 55%;
   height: 255px;
+  box-sizing: border-box;
 }
 .wagon {
   width: 500px;
