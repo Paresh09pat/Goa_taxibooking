@@ -1,6 +1,6 @@
 /* home page */
 #Maindiv {
-  width: 100%;
+  /* width: 100%; */
   height: 750px;
   background-image: url("./Images/javygo-mnItwT1ogBM-unsplash.png");
 }
@@ -58,15 +58,22 @@ a:hover {
   padding: 5px;
 }
 
-@keyframes bounce { 
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-20px);
-  box-shadow: 2px 2px 5px red; ; }
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 5px yellow;
+    ;
+  }
 }
+
 .hometext1 {
   color: white;
   text-align: center;
-  box-shadow: 2px 2px 5px yellow;
+  box-shadow: 2px 2px 5px red;
   border-radius: 20px;
   box-sizing: border-box;
   background-color: rgb(163, 128, 196);
@@ -297,7 +304,7 @@ a:hover {
 }
 
 #fourblock {
-display: flex;
+  display: flex;
   flex-wrap: wrap;
   width: 75%;
   margin-left: 12.5%;
@@ -323,7 +330,7 @@ display: flex;
   width: 40%;
   height: 320px;
   box-sizing: border-box;
- margin-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 .fourblock4 {
@@ -570,10 +577,93 @@ li {
   padding-top: 15px;
 }
 
-.End{
+.End {
   width: 100%;
   box-sizing: border-box;
   color: white;
-  background-color:#000000 ;
+  background-color: #000000;
   padding: 10px;
+}
+
+
+
+
+@media screen and (max-width: 390px) {
+  #Maindiv {
+    width: 100%;
+    border: 2px solid red;
+    height: 750px;
+  }
+
+  #navdiv {
+    width: 100%;
+    display: block;
+  }
+
+  .chat {
+    display: none;
+  }
+
+  .pic {
+    width: 150px;
+    height: 70px;
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+
+  a {
+    margin-left: 25px;
+  }
+
+  .adiv {
+    margin-left: 0px;
+    padding-top: 20px;
+  }
+
+  .hometext1 {
+    width: 70%;
+    margin-left: 15%;
+    padding: 5px;
+    margin-top: 150px;
+    font-size: 15px;
+  }
+
+  .hometext2 {
+    margin-top: 50px;
+    font-size: 35px;
+  }
+
+  .homepagetext3 {
+    width: 40%;
+    margin-top: 100px;
+    border-left: 1px solid gold;
+    margin-left: 30%;
+  }
+
+  #cards {
+    width: 100%;
+    margin-left: 0%;
+  }
+  
+  .cardiv {
+    padding: 10px;
+    width: 44%;
+    height: 250px;
+    font-size: 20px;
+  }
+  
+  .categorypic {
+    width: 150px;
+    height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  #anycatpic{
+    width: 150px;
+    height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
 }
