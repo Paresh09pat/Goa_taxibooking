@@ -165,6 +165,13 @@ a:hover {
   margin-bottom: 20px;
 }
 
+#carsecpic2 {
+  width: 300px;
+  height: 140px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
 .view {
   border: 3px solid rgb(184, 125, 239);
   width: 25%;
@@ -406,7 +413,9 @@ a:hover {
   height: 550px;
 }
 
-.mainwhyride1 {
+.mainwhyride1,
+.mainwhyride2,
+.mainwhyride3 {
   width: 33%;
   height: 550px;
   box-sizing: border-box;
@@ -587,6 +596,35 @@ li {
 
 
 
+.h2download {}
+
+.textindown {}
+
+.ridewith {}
+
+.ridewithdiv {}
+
+.h3why {}
+
+.h3whydiv {}
+
+.dan{
+  margin-left: 63px
+}
+
+ol {
+  font-size: 17px;
+}
+
+.h1welcome {
+  text-align: center
+}
+
+.oncarbook {
+  margin-left: 25px;
+}
+
+
 
 @media screen and (max-width: 390px) {
   #Maindiv {
@@ -597,7 +635,7 @@ li {
 
   #navdiv {
     width: 100%;
-    display: block;
+    display: inline-block;
   }
 
   .chat {
@@ -640,30 +678,454 @@ li {
     margin-left: 30%;
   }
 
+  /* car category */
   #cards {
     width: 100%;
     margin-left: 0%;
   }
-  
+
   .cardiv {
     padding: 10px;
     width: 44%;
-    height: 250px;
+    height: 220px;
     font-size: 20px;
   }
-  
+
   .categorypic {
-    width: 150px;
-    height: 100px;
+    width: 140px;
+    height: 90px;
     margin-top: 25px;
     margin-bottom: 25px;
   }
-  
-  #anycatpic{
-    width: 150px;
-    height: 100px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+
+  #carsecpic2 {
+    display: none;
   }
+
+  .categoryhead {
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  .categoryunderline {
+    width: 52%;
+    margin-left: 24%;
+  }
+
+  /* Who we are  */
+  #whomaindiv {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .whohead {
+    width: 100%;
+    margin-left: 0%;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .whotext {
+    width: 100%;
+    height: 500px;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .whopic {
+    width: 100%;
+    height: 300px;
+    left: 0%;
+    top: 2070px;
+  }
+
+  .whocarpic {
+    width: 340px;
+    height: 180px;
+    box-sizing: border-box;
+    padding-left: 20px;
+  }
+
+  .whoblock {
+    width: 90%;
+    height: 140px;
+    left: 5%;
+    top: 2260px;
+  }
+
+  .blockhead {
+    display: flex;
+  }
+
+  .boxtext {
+    font-size: 14px;
+  }
+
+  /* Download app */
+  #appdownload {
+    width: 100%;
+    height: 700px;
+    flex-direction: column;
+    margin-top: 320px;
+  }
+
+  #apptext {
+    color: white;
+    width: 100%;
+    margin-left: 0%;
+    padding-top: 20px;
+  }
+
+  .apppic1 {
+    width: 160px;
+    height: 70px;
+  }
+
+  .apppic2 {
+    width: 160px;
+    height: 50px;
+    margin-bottom: 9px;
+    margin-left: 10px;
+  }
+
+  .downloadimage {
+    width: 100%;
+  }
+
+  .mobileimage {
+    width: 280px;
+    height: 360px;
+    padding-top: 5px;
+    margin-left: 35px;
+  }
+
+  .h2download {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .textindown {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  /* Welcome to Quickzet */
+
+  #welcome {
+    margin-top: 10px;
+  }
+
+  .h1welcome {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  #fourblock {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 0%;
+    height: 650px;
+  }
+
+  .fourblock1 {
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+  }
+
+  .fourblock2 {
+
+    display: none;
+  }
+
+  .fourblock3 {
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+  }
+
+  .fourblock4 {
+    width: 100%;
+    height: 420px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 530px;
+  }
+
+  .wagon {
+    width: 300px;
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+
+  ol {
+    font-size: 15px;
+    padding-right: 10px;
+  }
+
+  .oncarbook {
+    margin-left: 25px;
+    font-size: 18px;
+  }
+
+  /* Latest post */
+  #latestpost {
+    margin-top: 250px;
+    width: 100%;
+    height: 700px;
+  }
+
+  .headpost {
+    padding-top: 10px;
+    font-size: 30px;
+  }
+
+  .headpost1 {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .postcard {
+    width: 100%;
+    height: 0px;
+    margin-left: 0%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .postcard1 {
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    margin-left: 0%;
+
+  }
+
+  .postcardimage {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+  }
+
+  .posttext {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  /* why ride with quickzet */
+  #Whyride {
+    width: 100%;
+    height: 700px;
+    margin-left: 0%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  #mainwhyride {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: 550px;
+  }
+
+  .ridewith {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .ridewithdiv {
+    font-size: 14px;
+  }
+
+  .mainwhyride1 {
+    width: 100%;
+    height: 510px;
+    margin-left: 5px;
+  }
+
+  .mainwhyride2 {
+    width: 100%;
+    height: 250px;
+    margin-left: 5px;
+  }
+
+  .mainwhyride3 {
+    width: 100%;
+    height: 350px;
+    margin-left: 5px;
+  }
+
+  .whypic {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .whypic1 {
+    width: 300px;
+    height: 250px;
+    padding-top: 0px;
+    margin-left: 20px;
+  }
+
+  .h3why {
+    font-size: 18px;
+  }
+
+  .h3whydiv {
+    font-size: 15px;
+  }
+
+  /* our top testimonials */
+  #ourmaindiv {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 630px;
+  }
+
+  .ourhead {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .ourunderline {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+  }
+
+  .ourcard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ourcard1 {
+    width: 45%;
+    height: 250px;
+    margin: 2.5%;
+  }
+
+  .stars {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .ourpic {
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+    padding-top: 10px;
+  }
+
+  .cenali {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+
+  .handimg {
+    display: none;
+  }
+
+
+  /* footer */
+
+  #footerdiv {
+    height: 450px;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .footdiv1 {
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+  }
+
+  .footpic {
+    width: 120px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+
+  .comdiv {
+    display: flex;
+    font-size: 12px;
+    line-height: 15px;
+
+  }
+
+  .footdiv2 {
+    width: 40%;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .footdiv3 {
+    width: 40%;
+    height: 140px;
+  }
+
+  .footdiv4 {
+    width: 90%;
+    margin-left: 5%;
+    height: 120px;  
+  }
+
+  .dan{
+    margin-left: 30px;
+  }
+
+  .forflex{
+    display: flex;
+    margin-left: 15px;
+  }
+
+  .footdiv5 {
+    width: 30%;
+    margin-left: 15%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 65px;
+    display: flex;
+  }
+
+  li {
+    padding-top: 3px;
+  }
+
+  .FOOTpic1 {
+    width: 120px;
+    margin-left: 10px;
+  }
+
+  .FOOTpic2 {
+    width: 120px;
+    height:35px;
+    margin-left: 20px;
+    margin-top: 8px;
+  }
+
+  .End {
+    font-size: 11px;
+    padding: 10px;
+  }
+
+
+
 
 }
