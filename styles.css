@@ -516,15 +516,21 @@ a:hover {
 }
 
 .footdiv2 {
-  width: 15%;
+  width: 50%;
   box-sizing: border-box;
   height: 300px;
 }
 
 .footdiv3 {
-  width: 15%;
+  width: 50%;
   box-sizing: border-box;
   height: 300px;
+}
+
+.comdiv{
+  display: flex;
+  border: 1px solid red;
+width: 20%;
 }
 
 .footdiv4 {
@@ -623,6 +629,8 @@ ol {
 .oncarbook {
   margin-left: 25px;
 }
+
+
 
 
 
